@@ -6,8 +6,8 @@ DUMMY_USER = 0
 def db_connect():
 
     config = {
-        'user': 'root',
-        'password': 'ece1779pass',
+        'user': 'USER',
+        'password': 'PASSWORD',
         'host': '127.0.0.1',
         'database': 'image_db'
     }

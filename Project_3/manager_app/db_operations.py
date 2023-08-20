@@ -8,8 +8,8 @@ HOST_ENDPOINT = 'ece1779-project2-db0.c5m47mkaqikn.us-east-1.rds.amazonaws.com'
 def db_connect():
 
     config = {
-        'user': 'Joey',
-        'password': 'joey0101',
+        'user': 'USER',
+        'password': 'PASSWORD',
         'host': HOST_ENDPOINT,
         'database': 'image_db'
     }

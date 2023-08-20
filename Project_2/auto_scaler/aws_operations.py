@@ -1,8 +1,8 @@
 import boto3
 import datetime
 
-ACCESS_KEY = 'AKIAYXTIZC27HZD67VO7'
-SECRET_KEY = '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'
+ACCESS_KEY = "IAM_USER_ACCESS_Key"
+SECRET_KEY = "IAM_USER_SECRET_Key"
 
 def get_ec2_ip4_addresses(region='us-east-1') -> list:
     conn = boto3.resource('ec2',

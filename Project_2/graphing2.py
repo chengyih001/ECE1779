@@ -21,8 +21,8 @@ test_image_path = "/Users/Joey/Desktop/screenshot_images"
 ACCESS_KEY = 'AKIAYXTIZC27HZD67VO7'
 SECRET_KEY = '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'
 
-RDS_USERNAME = 'Joey'
-RDS_PASSWORD = 'joey0101'
+RDS_USERNAME = 'USER'
+RDS_PASSWORD = 'PASSWORD'
 HOST_ENDPOINT = 'ece1779-project2-db0.c5m47mkaqikn.us-east-1.rds.amazonaws.com'
 
 

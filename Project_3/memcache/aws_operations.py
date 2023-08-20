@@ -1,7 +1,7 @@
 import boto3
 
-ACCESS_KEY = 'AKIAYXTIZC27HZD67VO7'
-SECRET_KEY = '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'
+ACCESS_KEY = "IAM_USER_ACCESS_Key"
+SECRET_KEY = "IAM_USER_SECRET_Key"
 
 def post_custom_metric(region: str, instance_id: int, stats: dict):
     conn = boto3.client('cloudwatch',

@@ -1,11 +1,11 @@
 import boto3
 from botocore.client import ClientError
 
-ACCESS_KEY = 'AKIAYXTIZC27HZD67VO7'
-SECRET_KEY = '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'
+ACCESS_KEY = "IAM_USER_ACCESS_Key"
+SECRET_KEY = "IAM_USER_SECRET_Key"
 
-RDS_USERNAME = 'Joey'
-RDS_PASSWORD = 'joey0101'
+RDS_USERNAME = 'USERNAME'
+RDS_PASSWORD = 'PASSWORD'
 
 class Bucket(object):
     def __init__(self, name, region):
